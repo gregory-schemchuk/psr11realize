@@ -1,0 +1,28 @@
+{
+    "type": "project",
+    "description": "Practice by Schemchuk Gregory 11-904",
+    "name": "lab42/psr11realize",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.3.0 || ^7.4.0 || ^8.0.0 || ^8.1.0",
+        "psr/container": "^1.0.0"
+    },
+    "provide": {
+        "psr/container-implementation": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "lab42\\psr11realize\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "lab42\\psr11realize\\Tests\\": "test/"
+        }
+    }
+}
