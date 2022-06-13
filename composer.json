@@ -1,7 +1,7 @@
 {
     "type": "project",
     "description": "Practice by Schemchuk Gregory 11-904",
-    "name": "lab42/psr11realize",
+    "name": "schemgr/psr11realize",
     "license": "proprietary",
     "minimum-stability": "stable",
     "prefer-stable": true,
@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "lab42\\psr11realize\\": "src/"
+            "schemgr\\psr11realize\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "lab42\\psr11realize\\Tests\\": "test/"
+            "schemgr\\psr11realize\\Tests\\": "test/"
         }
     }
 }

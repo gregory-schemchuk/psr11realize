@@ -1,8 +1,8 @@
 <?php
 
-namespace lab42\psr11realize\Tests;
+namespace schemgr\psr11realize\Tests;
 
-use \lab42\psr11realize\Container;
+use \schemgr\psr11realize\Container;
 use Psr\Container\ContainerExceptionInterface;
 
 use PHPUnit\Framework\TestCase;

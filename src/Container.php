@@ -1,6 +1,6 @@
 <?php
 
-namespace lab42\psr11realize;
+namespace schemgr\psr11realize;
 
 use Psr\Container\ContainerExceptionInterface;
 use Psr\Container\ContainerInterface;
